@@ -13,6 +13,7 @@
 		E221CE3C24A5C6A900EE6BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E221CE3B24A5C6A900EE6BE3 /* Assets.xcassets */; };
 		E221CE3F24A5C6A900EE6BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E221CE3E24A5C6A900EE6BE3 /* Preview Assets.xcassets */; };
 		E221CE4224A5C6A900EE6BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E221CE4024A5C6A900EE6BE3 /* LaunchScreen.storyboard */; };
+		E221CE4A24A5CA6400EE6BE3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221CE4924A5CA6300EE6BE3 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E221CE3E24A5C6A900EE6BE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E221CE4124A5C6A900EE6BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E221CE4324A5C6A900EE6BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E221CE4924A5CA6300EE6BE3 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E221CE3524A5C6A600EE6BE3 /* AppDelegate.swift */,
 				E221CE3724A5C6A600EE6BE3 /* SceneDelegate.swift */,
 				E221CE3924A5C6A600EE6BE3 /* ContentView.swift */,
+				E221CE4924A5CA6300EE6BE3 /* OnboardingView.swift */,
 				E221CE3B24A5C6A900EE6BE3 /* Assets.xcassets */,
 				E221CE4024A5C6A900EE6BE3 /* LaunchScreen.storyboard */,
 				E221CE4324A5C6A900EE6BE3 /* Info.plist */,
@@ -149,6 +152,7 @@
 				E221CE3624A5C6A600EE6BE3 /* AppDelegate.swift in Sources */,
 				E221CE3824A5C6A600EE6BE3 /* SceneDelegate.swift in Sources */,
 				E221CE3A24A5C6A600EE6BE3 /* ContentView.swift in Sources */,
+				E221CE4A24A5CA6400EE6BE3 /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
