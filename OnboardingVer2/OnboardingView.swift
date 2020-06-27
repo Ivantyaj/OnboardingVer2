@@ -19,14 +19,17 @@ struct OnboardingView: View {
             VStack{
                 Image(image)
                     .resizable()
-                    .frame(height: 400)
+                    .padding(.all)
+                    .frame(height: 400.0)
                 
                 
                 Text(header)
-                    .font(.system(size: 25, weight:.bold))
+                    .font(.system(size: 25, weight:.bold, design: .rounded))
+                    .padding(.bottom, 20)
                 Text(description)
-                    .font(.system(size: 17, weight: .medium))
+                    .font(.system(size: 17, weight: .medium, design: .rounded))
                     .multilineTextAlignment(.center)
+                    .padding(.horizontal, 20)
             }
         }
     }
